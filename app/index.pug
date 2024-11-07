@@ -8,14 +8,33 @@ html(lang="en")
         link(rel="stylesheet", href="./css/libs.min.css")
         link(rel="stylesheet", href="./css/style.min.css")
     body 
-    //Start Header
+        //Start Header
 
-    header.header 
-        .container 
-            
+        header.header 
+            .container 
+                .header__top 
+                    .header__left 
+                        a(href="#") 
+                            img(src="./images/logo.svg", alt="Logo") 
+                        .header_cert 
+                            img(src="./images/cert.png", alt="Certificate")
+                        .header_tel 
+                            a(href="tel:1230") 1230
+                            a(href="tel:+998712070809") (998-71)207-08-09 
+                    .header__rigth 
+                        .header_social 
+                            a(href="https://www.instagram.com/", target="_blank", rel="noopener noreferrer")
+                            a(href="https://www.facebook.com/", target="_blank", rel="noopener noreferrer")
+                            a(href="https://telegram.org/", target="_blank", rel="noopener noreferrer")
+                            a(href="https://www.youtube.com/", target="_blank", rel="noopener noreferrer")
+                        .header__language 
+                            select(name="lang")
+                                option(value="uz")  
+                                option(value="ru")  
+                .__header__bottom 
 
-    //End Header
+        //End Header
 
 
-    script(src="./js/libs.min.js")
-    script(src="./js/main.js")
+        script(src="./js/libs.min.js")
+        script(src="./js/main.js")
